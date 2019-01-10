@@ -1,0 +1,98 @@
+body{
+	font-family: "open sans",sans-serif;
+	font-size: 16px;
+	line-height: 1.5
+}
+a{
+	font-size: 21px;
+	font-family: "ubuntu", sans-serif;
+	line-height: 1;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+header,
+main,
+footer
+{
+	width: 960px;
+	margin:30px auto 0;
+	border: 3px solid #eaeaea;
+	padding: 30px 60px;
+}
+
+/** header **/
+header{
+	font-family: "ubuntu",sans-serif;
+}
+
+.header-left
+{
+	float: left;
+	text-align: center;
+}
+
+.header-left ul li:first-child img,
+.header-left ul li img{
+	width: 85%;
+}
+
+.header-left ul li:last-child,
+.header-left ul li:nth-child(2){
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+}
+
+.header-right{
+	float: right;
+	text-align: right;
+}
+
+.header-context{
+	margin-top: -15px;
+}
+
+.header-contact li{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.header-contact li img,
+.header-contact li a{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.header-contact li a{
+	font-size: 24px;
+	color: #1f6f13;
+}
+
+.header-contact li a:hover {
+	color: #0f3309;
+}
+
+.main-nav{}
+
+.main-nav ul li{
+	float: left;
+	padding-right: 20px;
+}
+
+.main-nav ul li:last-child{
+	padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
